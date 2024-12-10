@@ -18,7 +18,20 @@ type Form = {
   errors: Errors;
 };
 
-// Реалізуйте Params так, щоб унеможливити поле 'errors' з типу Form
-type Params = Form;
+// Implementacja typu Params wykluczającego 'errors'
+type Params = Omit<Form, "errors">;
+
+// Przykładowa funkcja używająca typu Params
+function createOrUpdateUser(params: Params) {
+  console.log("Tworzenie/Aktualizacja użytkownika z danymi:", params);
+}
+
+// Poprawne wywołanie funkcji z pełnymi danymi (bez 'errors')
+createOrUpdateUser({
+  email: "user@mail.com",
+  firstName: "Jan",
+  lastName: "Kowalski",
+  phone: "123-456-7890",
+});
 
 export {};
