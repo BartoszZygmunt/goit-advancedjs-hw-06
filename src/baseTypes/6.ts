@@ -15,3 +15,8 @@ function customError(): never {
 }
 
 export {};
+
+console.log("6.ts");
+showMessage("Hello");
+console.log("calc:", calc(2, 3));
+console.log("______________________________________");

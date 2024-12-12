@@ -9,8 +9,11 @@ function getPromise(): Promise<(string | number)[]> {
   });
 }
 
+console.log("GENERICS__________________");
+console.log("Task1:");
 getPromise().then((data) => {
   console.log(data);
 });
 
+console.log("______________________________________");
 export {};

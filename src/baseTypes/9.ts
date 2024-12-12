@@ -44,6 +44,8 @@ const page1Type: Page = {
   },
 };
 
+console.log("Task9:");
 console.log(page1Type);
+console.log("______________________________________");
 
 export {};

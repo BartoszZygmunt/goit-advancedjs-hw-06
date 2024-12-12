@@ -2,7 +2,7 @@
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
 // Definicja interfejsu PageProps
-
+console.log("4.ts");
 interface PageProps {
   title: string;
 }
@@ -24,3 +24,5 @@ const myPage = new Page({ title: "Moja Strona" });
 myPage.pageInfo(); // Output: Moja Strona
 
 export {};
+
+console.log("______________________________________");

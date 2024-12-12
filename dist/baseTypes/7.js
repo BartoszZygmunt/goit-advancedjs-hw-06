@@ -2,6 +2,7 @@
   Створіть функцію (isWeekend), яка приймає день тижня (з вашого enum)
   і повертає boolean значення, що вказує, чи це день робочий чи вихідний.
 */
+console.log("t7.ts");
 var DayOfWeek;
 (function (DayOfWeek) {
     DayOfWeek[DayOfWeek["Monday"] = 0] = "Monday";
@@ -17,4 +18,5 @@ function isWeekend(day) {
 }
 const today = DayOfWeek.Monday;
 console.log(`Is Monday a weekend? ${isWeekend(today)}`);
+console.log("______________________________________");
 //# sourceMappingURL=7.js.map

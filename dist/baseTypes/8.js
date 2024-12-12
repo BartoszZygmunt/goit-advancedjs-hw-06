@@ -4,5 +4,8 @@
 */
 let myGender;
 myGender = "male";
+console.log("Task8:");
+console.log("myGender:", myGender);
+console.log("______________________________________");
 export {};
 //# sourceMappingURL=8.js.map

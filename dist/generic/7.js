@@ -2,6 +2,7 @@
   У вас є перелік UserRole, який використовується для класифікації користувачів у вашому додатку.
   Ви хочете створити об'єкт RoleDescription, який зіставлятиме кожну роль користувача з її описом.
 */
+console.log("Task7:");
 export var UserRole;
 (function (UserRole) {
     UserRole["admin"] = "admin";
@@ -20,4 +21,5 @@ function displayRoleDescription(role) {
     console.log(`Role: ${role}, Description: ${getRoleDescription(role)}`);
 }
 displayRoleDescription(UserRole.admin);
+console.log("______________________________________");
 //# sourceMappingURL=7.js.map

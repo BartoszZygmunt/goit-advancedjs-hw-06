@@ -6,6 +6,7 @@
 
   Виправте тип у аргументі функції так, щоб не було помилок типу.
 */
+console.log("Task6:");
 function createOrUpdateUser(initialValues) {
     const existingUser = {
         name: "Jan",
@@ -18,5 +19,6 @@ function createOrUpdateUser(initialValues) {
 }
 // Przykładowe wywołanie funkcji z częściowymi danymi
 createOrUpdateUser({ email: "user@mail.com", password: "password123" });
+console.log("______________________________________");
 export {};
 //# sourceMappingURL=6.js.map

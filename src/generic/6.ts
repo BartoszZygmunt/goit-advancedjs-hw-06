@@ -7,6 +7,8 @@
   Виправте тип у аргументі функції так, щоб не було помилок типу.
 */
 
+console.log("Task6:");
+
 type User = {
   name: string;
   surname: string;
@@ -28,5 +30,7 @@ function createOrUpdateUser(initialValues: Partial<User>) {
 
 // Przykładowe wywołanie funkcji z częściowymi danymi
 createOrUpdateUser({ email: "user@mail.com", password: "password123" });
+
+console.log("______________________________________");
 
 export {};

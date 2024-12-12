@@ -4,6 +4,8 @@
   Функція compare повинна повертати AllType.
 */
 
+console.log("2.ts");
+
 type AllType = {
   name: string;
   position: number;
@@ -37,3 +39,5 @@ const result = compare(topObject, bottomObject);
 console.log(result);
 
 export {};
+
+console.log("______________________________________");

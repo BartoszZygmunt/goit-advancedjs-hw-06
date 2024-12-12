@@ -2,6 +2,7 @@
   У вас є перелік UserRole, який використовується для класифікації користувачів у вашому додатку.
   Ви хочете створити об'єкт RoleDescription, який зіставлятиме кожну роль користувача з її описом.
 */
+console.log("Task7:");
 
 export enum UserRole {
   admin = "admin",
@@ -26,3 +27,5 @@ function displayRoleDescription(role: UserRole): void {
 displayRoleDescription(UserRole.admin);
 
 export {};
+
+console.log("______________________________________");

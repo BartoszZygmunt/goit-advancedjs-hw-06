@@ -9,3 +9,7 @@ let myGender: Gender;
 myGender = "male";
 
 export {};
+
+console.log("Task8:");
+console.log("myGender:", myGender);
+console.log("______________________________________");

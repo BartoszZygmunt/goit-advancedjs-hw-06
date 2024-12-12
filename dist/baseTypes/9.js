@@ -27,6 +27,8 @@ const page1Type = {
         updateAt: new Date("2021-05-01"),
     },
 };
+console.log("Task9:");
 console.log(page1Type);
+console.log("______________________________________");
 export {};
 //# sourceMappingURL=9.js.map

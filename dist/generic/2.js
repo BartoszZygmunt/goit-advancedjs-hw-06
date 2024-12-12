@@ -3,6 +3,7 @@
   Ваше завдання – використовувати Pick та generics для вказівки, що поля цих об'єктів належать AllType.
   Функція compare повинна повертати AllType.
 */
+console.log("2.ts");
 function compare(top, bottom) {
     return {
         name: top.name,
@@ -21,5 +22,6 @@ const bottomObject = {
 };
 const result = compare(topObject, bottomObject);
 console.log(result);
+console.log("______________________________________");
 export {};
 //# sourceMappingURL=2.js.map
